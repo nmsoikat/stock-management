@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Panel</title>
+
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/responsive.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+</head>
+
+<body class="dashboard-bg">
+  <div class="main-wrap">
+
+    <!-- Sidebar START -->
+    <aside class="left-sidebar" id="leftSidebar">
+      <div class="group">
+        <button class="btn close d-lg-none" id="close">close</button>
+        <a href="/stock-management">
+          <h2>Group-D</h2>
+        </a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="/stock-management" class="active"><span><i class="fas fa-tachometer-alt"></i></span>Dashboard</a>
+          </li>
+          <li><a href="brand_name.html"><span><i class="far fa-building"></i></span>Brand Name</a></li>
+          <li><a href="category_name.html"><span><i class="fas fa-tasks"></i></span>Category</a></li>
+          <li><a href="add_product.html"><span><i class="fas fa-shopping-bag"></i></span>Product</a></li>
+          <!-- <li><a href="/all_product.html"><span><i class="fas fa-table"></i></span>All Product</a></li> -->
+        </ul>
+      </nav>
+      <div class="logout">
+        <button class="btn">Logout</button>
+      </div>
+    </aside>
+    <!-- Sidebar END -->
+
+    <!-- Dashboard Content START -->
+    <section class="dashboard-body">
+      <div class="welcome-text">
+        <button class="btn d-lg-none" id="menu">Menu</button>
+        <h2 class=text-center">
+          Welcome To Dashboard
+        </h2>
+      </div>
+
+      <div class="content-body">
+
+      </div>
+
+      <div class="footer top-page">
+        Copyright &copy; 2020 <span class="roll">Roll: 40, 35, 38, 03</span> All Rights
+        Reserved.
+      </div>
+
+    </section>
+    <!-- Dashboard Content END -->
+
+  </div>
+
+  <script src="./assets/js/jquery.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
