@@ -1,0 +1,102 @@
+
+/* Extra Large */
+@media only screen and (min-width:1200px){
+
+}
+
+/* Large Device */
+@media only screen and (min-width:992px) and (max-width:1199px) {
+
+}
+
+/* Medium Device */
+@media only screen and (min-width:768px) and (max-width: 991px){
+
+  /* side bar control */
+ .dashboard-body {
+    margin-left: 0px;
+  }
+  .left-sidebar{
+    display: none;
+  }
+  .welcome-text button {
+    display: inline-block;
+    background-color: #3ff1e8;
+    padding: 5px 8px;
+    max-height: 45px;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+
+  .welcome-text {
+      display: flex;
+  }
+
+  .welcome-text h2 {
+      width: 90%;
+  }
+  .group .close {
+    font-size: 14px;
+    border: 1px solid #ddd;
+    color: red;
+    padding: 5px;
+    background-color: #ddd;
+    margin: 5px;
+}
+
+
+}
+
+/* Small Device */
+@media only screen and (max-width:767px){
+  /* side bar control */
+  .dashboard-body {
+    margin-left: 0px;
+  }
+  .left-sidebar{
+    display: none;
+  }
+  .welcome-text button {
+    display: inline-block;
+    background-color: #3ff1e8;
+    padding: 5px 8px;
+    max-height: 45px;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+
+  .welcome-text {
+      display: flex;
+  }
+
+  .welcome-text h2 {
+      width: 90%;
+  }
+  .group .close {
+    font-size: 14px;
+    border: 1px solid #ddd;
+    color: red;
+    padding: 5px;
+    background-color: #ddd;
+    margin: 5px;
+}
+
+
+  .login-form {
+    width: 350px;
+  }
+  .login-form{
+    padding:30px;
+  }
+  .login-title {
+    margin-bottom: 10px;
+  }
+  .dashboard-body {
+    margin-left: auto;
+  }
+}
+
+/* Extra Small Device */
+@media only screen and (max-width:575px){
+
+}

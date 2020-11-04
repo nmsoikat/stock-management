@@ -1,0 +1,238 @@
+h2,
+p {
+  margin: 0;
+}
+a {
+  color: #333;
+}
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  font-size: 16px;
+}
+
+/* =========== Login Page Style ============= */
+.login-page-bg {
+  background-color: #ebebeb;
+}
+
+.login-section-wrap {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-form {
+  width: 500px;
+  font-family: 'Raleway', sans-serif;
+  background-color: #fff;
+  padding: 45px;
+  border-radius: 15px;
+}
+.login-title {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.cmn-btn-design {
+  text-align: right;
+}
+
+.cmn-btn-design button {
+  background-color: #333;
+  border-radius: 10px;
+  color: #fff;
+  padding: 5px 30px;
+}
+.cmn-btn-design button:hover {
+  color: #fff;
+  background-color: #20aee3;
+}
+
+/* ================ Dashboard =================*/
+.dashboard-bg {
+  background-color: #f6f9fa;
+}
+.group,
+.welcome-text {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+.group a {
+  display: inline-block;
+  padding: 15px 0px;
+  padding-left: 15px;
+  color: #20aee3;
+}
+.group a h2 {
+  font-size: 23px;
+}
+.welcome-text h2 {
+  padding: 15px 0px;
+  font-size: 23px;
+  text-align: center;
+  color: #666;
+}
+.main-wrap {
+  position: relative;
+}
+.left-sidebar {
+  width: 300px;
+  background-color: #fff;
+  border-right: 1px solid #ddd;
+  position: fixed;
+  height: 100%;
+}
+.left-sidebar ul li a {
+  display: block;
+  font-size: 18px;
+  padding: 15px 0px;
+  padding-left: 12px;
+  border-bottom: 1px solid #ddd;
+  border-left: 3px solid #ddd;
+  transition: 0.2s;
+}
+.left-sidebar ul li a.active,
+.left-sidebar ul li a:hover,
+.left-sidebar ul li a:focus {
+  border-left: 3px solid #20aee3;
+  background-color: #f6f9fa;
+  color: #20aee3;
+}
+.left-sidebar ul li a span {
+  margin-right: 5px;
+}
+.top-bar {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+.logout {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.logout button {
+  border-top: 1px solid #ddd;
+  width: 100%;
+  border-radius: 0;
+}
+.logout button:hover {
+  color: #20aee3;
+}
+.dashboard-body {
+  margin-left: 300px;
+}
+
+/*=====================  Brand Name Page Style ==================== */
+.form-title {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.cmn-form-design {
+  background-color: #fff;
+  padding: 35px;
+  border-radius: 15px;
+  border: 1px solid #ddd;
+  margin-top: 30px;
+}
+.all-product-table tr,
+.cmn-table-design table {
+  background-color: #fff;
+}
+.all-product-table table th,
+.cmn-table-design table th {
+  background-color: #aeaeae;
+}
+.cmn-table-design table tr th:first-child,
+.cmn-table-design table tr td:first-child {
+  max-width: 15px;
+  min-width: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+}
+/* .cmn-table-design table tr:nth-child(odd){
+  background-color: #F2F2F2;
+} */
+.all-product-table tr:hover,
+.cmn-table-design table tr:hover {
+  background-color: #f2f2f2;
+}
+.cmn-table-design tr .edit-btn,
+.cmn-table-design tr .delete-btn {
+  padding-left: 5px;
+  padding-right: 5px;
+  max-width: 20px;
+  min-width: 20px;
+}
+.cmn-table-design table tr th:last-child {
+  min-width: 40px;
+  max-width: 40px;
+}
+.cmn-pagi-design {
+  justify-content: center;
+}
+.category-name-table table,
+.brand-name-table table {
+  min-width: 593px;
+}
+.category-name-table ,
+.brand-name-table {
+  overflow-x: auto;
+}
+
+
+
+/* ============= Add Product Page Style =============== */
+.all-product-table tr > .image {
+  min-width: 200px;
+  max-width: 200px;
+}
+.cmn-btn-design .btn-search{
+  background-color: #20aee3;
+  border-radius: 5px;
+  margin-top: 33px;
+}
+.cmn-btn-design .btn-search:hover{
+  background-color: #289bc5;
+  border-radius: 5px;
+}
+.all-product-table{
+  overflow-x: auto;
+}
+.all-product-table table{
+  min-width: 1086px;
+}
+
+
+/* Footer */
+.main-wrap,
+.dashboard-body {
+  height: 100%;
+}
+.content-body {
+  min-height: calc(100% - 96px);
+}
+.footer {
+  text-align: center;
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+  padding: 7px 0px;
+  color: #666;
+  z-index: 1;
+}
+.roll{
+  font-weight: bold;
+  /* color: #20aee3; */
+}
